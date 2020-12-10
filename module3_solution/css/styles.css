@@ -1,0 +1,39 @@
+#header-nav{
+    background: #00b894;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #d63031;
+    text-align: center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#texto{
+    background: #2d3436;
+    margin: 0px 20px 0px 20px;
+    color: white;
+    margin-bottom: 120px;
+}
+.navbar-brand a{
+    text-decoration: none;
+    color: #d63031;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+@media (max-width: 767px){
+    .navbar-brand a{
+        padding-top: 10px;
+        font-size: 4vw;
+    }
+}
